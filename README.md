@@ -4,17 +4,11 @@ This directory stores Stanford's theming files for its edX instance.
 We're storing the stuff here and then pulling it in to our instance
 when we deploy.
 
-We've organized the tree to mimic the directory structure of the edX
-codebase so that it's easy to tell where the files will end up upon
-deploy. We'll use a special settings file to set the template and
-staticfiles paths properly to point to these files.
-
 Theme Authoring
 ===============
-The proposed theming solution for edX provides a number of hooks for
-themes to adjust both HTML and CSS to their liking.
+This is a Stanford-Specific theme.
 
-See the [the relevant wiki page](https://github.com/edx/edx-platform/wiki/Stanford-Theming) on how to apply the theme.
+Please see the [Open edX Default Theme](https://github.com/Stanford-Online/edx-default-theme) and fork that for all your theming needs.
 
 License
 =======
