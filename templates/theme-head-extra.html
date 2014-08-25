@@ -2,13 +2,19 @@
 
 <%namespace name='static' file='/static_content.html'/>
 
-<script type="text/javascript" src="themes/cuptheme/ngick/highslide/highslide-with-html.js"></script>
-<link rel="stylesheet" type="text/css" href="themes/cuptheme/ngick/highslide/highslide.css" />
+ <link rel="stylesheet" type="text/css" href="${static.url('themes/cuptheme/css/ngextra.css')}" />
+
+<script type="text/javascript" src="${static.url('themes/cuptheme/css/ngick/highslide/highslide-with-html.js')}"></script>
+<link rel="stylesheet" type="text/css" href="${static.url('themes/cuptheme/css/ngick/highslide/highslide.css')}" />
 <script type="text/javascript">
-        hs.graphicsDir = 'themes/cuptheme/ngick/highslide/graphics/';
+        hs.graphicsDir = '${static.url('themes/cuptheme/css/ngick/highslide/graphics/')}';
         hs.outlineType = 'rounded-white';
         hs.showCredits = false;
         hs.wrapperClassName = 'draggable-header';
 </script>
+
+
+
+
 
 
