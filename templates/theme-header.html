@@ -3,6 +3,17 @@
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="/navigation.html"/>
 
+
+<script type="text/javascript" src="themes/cuptheme/ngick/highslide/highslide-with-html.js"></script>
+<link rel="stylesheet" type="text/css" href="themes/cuptheme/ngick/highslide/highslide.css" />
+<script type="text/javascript">
+	hs.graphicsDir = 'themes/cuptheme/ngick/highslide/graphics/';
+	hs.outlineType = 'rounded-white';
+	hs.showCredits = false;
+	hs.wrapperClassName = 'draggable-header';
+</script>
+
+
 ## TODO: this will eventually be moved to the Sass
 <%block name="navigation_logo">
   <img src="${static.url('themes/cuptheme/images/logo_recreated.svg')}" height="50" alt="Home Page" />
