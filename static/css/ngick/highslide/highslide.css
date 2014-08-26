@@ -8,6 +8,7 @@
 }
 .highslide-container table {
 	background: none;
+	table-layout: auto;
 }
 .highslide {
 	outline: none;
