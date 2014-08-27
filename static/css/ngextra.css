@@ -6,6 +6,11 @@ font-size:none;
 
 .xmodule_display.xmodule_HtmlModule table td{
 border: 0px solid #ccc;
+vertical-align: middle;
+}
+
+h2{
+text-transform:none !important;
 }
 
 table.title1
@@ -90,11 +95,11 @@ margin-right:auto;
 }
 th.boxH
 {
-border:1px solid blue;
+border:1px solid blue !important;
 text-align:center;
 color:blue;
 font-style:italic;
-font-size: 16px;
+font-size: 16px !important;
 padding:10px;
 }
 td.boxT
@@ -118,7 +123,7 @@ padding:5px;
 
 td.boxBj
 {
-border:1px solid blue;
+border:1px solid blue !important;
 text-align:justify;
 padding:5px;
 }
@@ -126,7 +131,7 @@ padding:5px;
 td.boxB
 {
 width:50%;
-border:1px solid blue;
+border:1px solid blue !important;
 text-align:center;
 padding:5px;
 
