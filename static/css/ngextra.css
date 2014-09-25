@@ -207,3 +207,19 @@ white-space: nowrap;
 text-overflow: ellipsis;
 overflow: hidden;
 }
+
+.home>header .media .hero {
+height:100%;
+overflow:hidden;
+position: relative
+background:url("/static/themes/cuptheme/images/logo-recreated.svg") center no-repeat !important;
+background-size:cover;
+}
+
+.home>header .media .hero .play-intro {
+display: none !important;
+}
+
+.home>header .title>hgroup h1{
+font:normal 1.4em/1.4em "Source Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif !important;
+}
