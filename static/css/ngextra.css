@@ -212,7 +212,7 @@ overflow: hidden;
 height:100%;
 overflow:hidden;
 position: relative
-background:url("/static/themes/cuptheme/images/logo-recreated.svg") center no-repeat !important;
+background:url("/static/themes/cuptheme/images/logo_recreated.svg") center no-repeat !important;
 background-size:cover;
 }
 
