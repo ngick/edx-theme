@@ -210,9 +210,6 @@ text-overflow: ellipsis;
 overflow: hidden;
 }
 
-.home>header .outer-wrapper {
-/*display: none;*/
-}
-.home>header .media {
+.home>header .media .hero .play-intro {
   display:none;
 }
