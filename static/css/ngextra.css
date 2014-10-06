@@ -210,7 +210,9 @@ text-overflow: ellipsis;
 overflow: hidden;
 }
 .home>header .title {
-  min-height:130px;
+  min-height: 130px;
+  margin-left: 100px;
+  width: 71%;
 }
 .home>header .media {
   width:142px;
