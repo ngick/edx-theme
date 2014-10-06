@@ -28,7 +28,7 @@ padding:0em !important;
 td.header1
 {
 text-align:center;
-color:#666633;
+color:#888844;
 font-style:italic;
 font-weight:bold;
 font-size:20px !important;
@@ -37,12 +37,12 @@ border-radius:5px;
 border-width:10px !important;
 border-color:#c83d58 !important;
 border-bottom:0px solid #c83d58 !important;
-padding:0px !important; 
+padding:10px !important; 
 }
 td.header2
 {
 text-align:center;
-color:#666633;
+color:#888844;
 font-style:italic;
 font-weight:bold;
 font-size:20px !important;
@@ -51,12 +51,12 @@ padding:0px !important;
 td.header3
 {
 text-align:center;
-color:#666633;
+color:#888844;
 font-style:italic;
 font-weight:regular;
 font-size:16px !important;
 padding:0px !important;
-border: 0px solid #666633;
+border: 0px solid #888844;
 }
 .inBoxTitles
 {
@@ -76,7 +76,7 @@ font-weight: bold;
 td.footer1
 {
 text-align:center;
-color:#666633;
+color:#888844;
 font-style:italic;
 font-weight:bold;
 font-size:20px;
@@ -91,16 +91,16 @@ border-right:0px solid #c83d58;
 table.box1,td.box1,tr.box1
 {
 width:100%;
-border: 1px solid #666633;
+border: 1px solid #888844;
 border-collapse:collapse;
 margin-left:auto;
 margin-right:auto;
 }
 th.boxH
 {
-border:1px solid #666633 !important;
+border:1px solid #888844 !important;
 text-align:center;
-color:#666633;
+color:#888844;
 font-style:italic;
 padding:10px !important;
 }
@@ -118,14 +118,14 @@ padding:10px !important;
 
 td.boxBc
 {
-border:1px solid #666633;
+border:1px solid #888844;
 text-align:center;
 padding:5px !important;
 }
 
 td.boxBj
 {
-border:1px solid #666633 !important;
+border:1px solid #888844 !important;
 text-align:justify;
 padding:5px !important;
 }
@@ -133,7 +133,7 @@ padding:5px !important;
 td.boxB
 {
 width:50%;
-border:1px solid #666633 !important;
+border:1px solid #888844 !important;
 text-align:center;
 padding:5px !important;
 
@@ -210,3 +210,6 @@ text-overflow: ellipsis;
 overflow: hidden;
 }
 
+.home>header .outer-wrapper {
+display: none;
+}
