@@ -209,7 +209,13 @@ white-space: nowrap;
 text-overflow: ellipsis;
 overflow: hidden;
 }
-
+.home>header .title {
+  min-height:130px;
+}
+.home>header .media {
+  width:142px;
+  height:130px;
+}
 .home>header .media .hero .play-intro {
   display:none;
 }
