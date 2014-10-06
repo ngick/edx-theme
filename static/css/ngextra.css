@@ -211,5 +211,8 @@ overflow: hidden;
 }
 
 .home>header .outer-wrapper {
-display: none;
+/*display: none;*/
+}
+.home>header .media {
+  display:none;
 }
