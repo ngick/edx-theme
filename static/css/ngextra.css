@@ -174,7 +174,7 @@ white-space: nowrap;
 }
 
 
-
+/*ngick the following are corrections to the openedx main theme*/
 header.global.slim h2 {
 display: block;
 width: 700px;
@@ -220,4 +220,11 @@ overflow: hidden;
 }
 .home>header .media .hero .play-intro {
   display:none;
+}
+/*the following 2 are for middle alignment of radioboxes and checkboxes*/
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="radio"]{
+  float:none;
+}
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="checkbox"]{
+  float:none;
 }
